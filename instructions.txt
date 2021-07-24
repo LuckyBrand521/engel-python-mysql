@@ -1,0 +1,17 @@
+You need Python 3.8 or newer
+
+Run these commands:
+pip3 install playwright==1.8.0a1 pymysql
+python3 -m playwright install chromium
+
+Then change database details in backend/mysql.txt and frontend/db.php,db2.php and run only first time: python3 create_db.py
+And import sql in database (please reference zip file - kwon.zip, natursteincrawler.zip)
+
+To run scraper: python3 kwon.py OR python3 engel.py
+
+//db-online
+host=38ef097.online-server.cloud
+user=engel
+password=Z8&pY4H@ZTM^Hk
+database=natursteincrawler
+database2=kwon

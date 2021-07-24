@@ -1,0 +1,5 @@
+host=50f3194.online-server.cloud
+user=engel
+password=F8*zYt#agM
+database=natursteincrawler
+database2=kwon
